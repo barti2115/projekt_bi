@@ -22,10 +22,10 @@ jobs:
               run: pip install -r requirements.txt
 
             - name: Run scrapper.py
-              run: python scrapper.py
+              run: python src/scripts/scrapper.py
 
             - name: Run pre_process_data.py
-              run: python pre_process_data.py
+              run: python src/scripts/pre_process_data.py
 
             - name: Run prediction_model.py
-              run: python prediction_model.py
+              run: python src/scripts/prediction_model.py
